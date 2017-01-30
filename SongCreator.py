@@ -12,14 +12,20 @@ verse3 = []
 verse4 = []
 
 #setting the lists with the user inputs
-verse1 = Epic.userString("Enter the first verse: ")
-verse2 = Epic.userString("Entert he second verse: ")
-verse3 = Epic.userString("Entert he third verse: ")
-verse4 = Epic.userString("Entert he fourth verse: ")
+verseString1 = Epic.userString("Enter the first verse: ")
+verseString2 = Epic.userString("Entert he second verse: ")
+verseString3 = Epic.userString("Entert he third verse: ")
+verseString4 = Epic.userString("Entert he fourth verse: ")
 
+verseString1 = verseString1.replace('cookies', '_______')
+verseString2 = verseString2.replace('cookies', '_______')
+verseString3 = verseString3.replace('cookies', '_______')
+verseString4 = verseString4.replace('cookies', '_______')
 
-
-
+verse1 = verseString1
+verse2 = verseString2
+verse3 = verseString3
+verse4 = verseString4
 
 #not using lists for the chorus due to calculations
 chorus = Epic.userString("Enter the chorus: ")
