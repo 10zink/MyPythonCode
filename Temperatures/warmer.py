@@ -28,7 +28,8 @@ def calculateAvg(finaltemps, start, stop):
     #rangefinal = [float(o) for o in rangevalue]
     #print rangevalue
     
-    count = len(finaltemps)
+    count = len(rangevalue)
+    #print count
    
     finalsum = sum(rangevalue)
    
