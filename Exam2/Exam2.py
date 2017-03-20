@@ -109,5 +109,3 @@ def main():
     print "\t%s\n" % six
     
 main()
-
-
