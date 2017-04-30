@@ -2,6 +2,10 @@ import json
 import urllib2
 import Epic
 
+# Programmed by Tenzin Khunkhyen
+# 4/24/17 for my Python Class
+
+
 
 def location(x):
     url = 'https://api.apixu.com/v1/forecast.json?key=7d58e084d8de4f73916223427172903&q=' + x
