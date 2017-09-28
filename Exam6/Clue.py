@@ -18,6 +18,7 @@ def user():
     #returns the userinput
     
 
+
 #initialList(weapons, suspects) ask the users to enter a list of weapons and suspects, and then returns the possibile options left.    
 def initialList(weapons, suspects):
     x = ""
@@ -31,9 +32,7 @@ def initialList(weapons, suspects):
     return x
     
     
-    
-    
-    
+
 def main():
     #here we create the two lists, weapons and suspects, and then convert them to lower case. 
     weapons = ["Candlestick", "Wrench", "Pipe"]
@@ -42,9 +41,11 @@ def main():
     suspects = ["Miss Scarlet", "Col Mustard", "Mr Green"]
     suspects2 = [y.lower() for y in suspects]
     
+
     #calling the initialList function
     print "%s " % (initialList(weapons, suspects))
-    
+
+
     #set the gamover variable to false
     gameover = False
     
@@ -52,8 +53,8 @@ def main():
     
         #calling the user() function
         userInput = user()
+    
         
-       
         if(userInput == 'w'):
             #here I used the lower cased list, that way we can get an updated list as we eliminate weapons
             weaponUsed = Epic.userString("Enter the weapon that was not used %s" % (weapons2)).lower() 
@@ -72,10 +73,7 @@ def main():
             if(len(L2) == 1):
                 print "The suspect is  %s and the weapon used was the %s " % (suspects2, weapons2) 
                 gameover = True
-               
-
-
-
+              
             
         if(userInput == 's'):
             #here I used the lower cased list, that way we can get an updated list as we eliminate suspects

@@ -28,7 +28,7 @@ def shuffleDeck(deck):
             
     return newDeck
     
-#this function deals 5 cards  
+this function deals 5 cards  #
 def deal(newDeck):
     inhand = newDeck[:5]
     
