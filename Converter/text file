@@ -1,0 +1,96 @@
+
+~~~~~~~~  Things to do ~~~~~~~~~~
+
+Make the sign integer functions. 
+
+-->  Welcome user
+    --> Ask if they want to convert sign integers
+        --> Yes  =  1) Type of number entered
+                    2) sign integer options
+                    3) answer
+                    
+        --> No =    1)Type of number entered
+                    2) Enter number
+                    3) Type of output number
+
+        Please pick either
+ Option 1: Convert a sign integer
+ Option 2: Convert between number systems
+
+Create more functions to clean main().
+
+
+
+
+**** Make it so it can go from WElcome to number systems converter back up to
+the previous menu.
+
+
+========================== D O N E ============================================
+
+• Converts back and forth between the following number systems:
+• Binary (base 2)
+• Octal (base 8)
+• Decimal (base 10)
+• Hexadecimal (base 16)
+• Binary Coded Decimal
+
+
+// Done
+1) decimal to binary
+2) decimal to octal
+3) decimal to hexadecimal 
+4) decimal to bcd
+
+
+// Done
+1) binary to decimal
+2) binary to octal
+3) binary to  hexadecimal
+4) binary to bcd
+
+// Done
+1) octal to decimal
+2) octal to binary
+3) octal to hexadecimal
+4) octal to bcd
+
+//Done
+1) hexadecimal to decimal
+2) hexadecimal to binary
+3) hexadecimal to octal
+4) hexadecimal to bcd
+
+//Done
+1) bcd to decimal
+2) bcd to binary
+3) bcd to octal
+4) bcd to hexadecimal
+
+Make the BCD functions
+--> bcd to decimal
+--> take 10 and multiple 
+    
+    --> set x = 1
+        --> multiple by 10. (x * 10)
+        --> int 79 -> 97 
+        
+        -------->---------->-------------->------->
+        1  |  10 | 100 | 1,000 |  10,000 | 100,000
+        9  |  7  |  0  |  0    |    0    |  0   
+        -------->---------->-------------->------->
+        
+        
+    # userInput = 79
+    temp = userInput[::-1]
+    # temp = 97
+    for num in temp:
+        print num
+        
+
+Make a statement that will prevent people from entering random inputs that are not
+b, c, d, b, h, o, e
+        
+
+Make a statement that will not allow user to enter the same input and out,
+ex: Binary to Binary
